@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selling Items</title>
+    <link rel="icon" type="image/icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADsUlEQVRYhbWWT2gcVRzHP8/sBsSkpkLUpdlQRAgptexuqrR6EcxqDipWacCLB4PJwUNpwEUwiAgt4sE/NHdLwIM1NFvw4CUU04JJs7HSRDYbD1VCNiRBiTtJDmnh62F3pjOZyc40ab/wmHlvfu/9vu/7+/3eG6hBUpOkjyXN6+HhlqRBSY/ihqQOSX8+RMdBRNoBjKQm4CbwLBFhWRYLCwtO3xhDIpEgkUhEXQJgFjiOpE+j0h7L59WdzSoWjzutwfXenc1qLJ+/HyXOoAjSVyoVdWezHmf1Wi6Xi0qgQBSr07293l3HYqFkIiqxFUogn88HOkhlMjrd2+sLid1eyWajEFAogQ/6+0MlzuVygSSi4JGwVDXG+MaGhoY8/b6+PgROux8YSaFz3GVnjCGTyfhs4o2Nnr6Au9vboQRiUVg2NzfT1dXl9JeXlymXy/w6OQnAxMRE1akUqNi+CdhOv7t4kR9HR5mbnfV8E2AIDlcooiTKWD6vtmQyMNHqlWMUhObAzMwMJ06edHZpPwEGz54l2d7Okc5OXuvp8akSJQdCFUil076ddWezWlpa8tjtVYG6BEqlUuDChULBY1cul30haXgQ50Bxft6R0y2tuyIAisWi825cz+Xl5dAI1CWwuLjoWdR+tyzLY/fDpUuB829MT4cSqBuC8fFx5/LZ7SgeGRnx2dhhSGcyqlQqdUNQl4A7tjtLL5VOqy2Z3LUM7fELw8N7JyD5r+LdWiqT8Y21JZMqlUr7I2D/jPh2WJO8oRYSy7KcW9FWKMx5JAI2iQvDww6RhlhMqUxG/QMDvpI8d/68+gcGZFmu2G8sSavT0soNadubE96T8I9v4bEkHH47PHujYKsMUx/Cav5eLR/7Bo6ccUy8ZXioB37rh6unYK2wfwKNB+DoJ/D6ErxTgaZO3w+Dl0BLB7xxG7b/hfHnq0T+ugx3NvZGYHUK5s7BT4dgswwbRWh90WNiJN0FGjyjdyy4+Rnc/gpUu4CS70PLMXjypSrReDO+OeslWJ+D1WuwcgW2/6meXCcuQ/wAzH0Or/7invWfkXQLeC5wB2sFmHwPNov3jsOdd6dxje38HXjqLUh/AY93wNp0lURLh9viupH0EfBlIAEbf4/B/Newfo2ge1ly+TbAM4Nw+F1oPV53WWDASGoEpoBUmDVbZVibgs1FWLlac2ggfrAanoNHofUFf3iCcR14ubYDPS3pSpQz4QHhe0lP2II5kHQKeBPoYre82Dt+B2aAUWPMz/bg/5AZ2OKL1i4FAAAAAElFTkSuQmCC">
+    <style>
+
+
+*{
+    animation-name:animation;
+  animation-duration:3s;
+  animation-timing-function: 1;
+
+
+
+}
+
+
+
+
+
+header h1{
+float: left;
+
+}
+
+
+
+
+
+
+
+header img{
+margin-top: 25px;
+margin-left: 10px;
+
+
+
+
+
+}
+
+
+header li{
+display: flex;
+float: left;
+
+
+
+
+}
+
+
+
+
+
+
+header a{
+    position: relative;
+    left: 450px;
+    bottom:  35px;
+    text-decoration: none;
+    font-size: 25px;
+
+   font-family: Arial;
+  color:rgb(0, 0, 0);
+  margin-right: 5em;
+    
+
+    
+    
+    }
+
+
+    header a:hover{
+color:orangered;
+transition: 2s ease-in-out;
+
+
+        
+    }
+
+
+
+
+
+
+
+
+
+        body {
+            font-family: Arial;
+            background-color:white ;
+            margin: 20px;
+            background-color: hsl(240, 100%, 56%);
+        }
+        .item {
+
+            background: white;
+            border: 1px solid white;
+            padding: 10px;
+            margin-bottom: 10px;
+           margin-top: 20px;
+
+           background-color: hsl(240, 100%, 56%);
+           border: none;
+        }
+        .item img {
+            width: 100px;
+            height: auto;
+            background-color: hsl(240, 100%, 56%);
+        }
+        .item h3 {
+            margin: 10px 0;
+            background-color: hsl(240, 100%, 56%);
+        }
+        .item p {
+            color: #1c1c1c;
+        }
+        .item button {
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .item button:hover {
+            background-color: blue;
+        }
+
+
+
+        @keyframes animation{
+from{transform: translateY(-1000px);}
+
+
+
+
+
+}
+
+
+
+
+
+header input{
+position: relative;
+right: 800px;
+bottom: 40px;
+height: 40px;
+float: left;
+border-radius: 50px;
+
+width: 225px;
+font-size: 20px;
+border: solid black;
+
+background-color:hsla(0, 0%, 0%, 0.219) ;
+color: white;
+
+}
+
+
+header button{
+position: relative;
+right: 820px;
+bottom: 40px;
+background-color: white;
+height: 40px;
+width: 65px;
+
+border-left: none;
+
+border-top-right-radius:50px ;
+border-bottom-right-radius:50px ;
+border: solid black;
+border-left: none;
+background-color: rgb(255, 255, 255);
+font-size: 15px;
+
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <h1>Amazon</h1>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADsUlEQVRYhbWWT2gcVRzHP8/sBsSkpkLUpdlQRAgptexuqrR6EcxqDipWacCLB4PJwUNpwEUwiAgt4sE/NHdLwIM1NFvw4CUU04JJs7HSRDYbD1VCNiRBiTtJDmnh62F3pjOZyc40ab/wmHlvfu/9vu/7+/3eG6hBUpOkjyXN6+HhlqRBSY/ihqQOSX8+RMdBRNoBjKQm4CbwLBFhWRYLCwtO3xhDIpEgkUhEXQJgFjiOpE+j0h7L59WdzSoWjzutwfXenc1qLJ+/HyXOoAjSVyoVdWezHmf1Wi6Xi0qgQBSr07293l3HYqFkIiqxFUogn88HOkhlMjrd2+sLid1eyWajEFAogQ/6+0MlzuVygSSi4JGwVDXG+MaGhoY8/b6+PgROux8YSaFz3GVnjCGTyfhs4o2Nnr6Au9vboQRiUVg2NzfT1dXl9JeXlymXy/w6OQnAxMRE1akUqNi+CdhOv7t4kR9HR5mbnfV8E2AIDlcooiTKWD6vtmQyMNHqlWMUhObAzMwMJ06edHZpPwEGz54l2d7Okc5OXuvp8akSJQdCFUil076ddWezWlpa8tjtVYG6BEqlUuDChULBY1cul30haXgQ50Bxft6R0y2tuyIAisWi825cz+Xl5dAI1CWwuLjoWdR+tyzLY/fDpUuB829MT4cSqBuC8fFx5/LZ7SgeGRnx2dhhSGcyqlQqdUNQl4A7tjtLL5VOqy2Z3LUM7fELw8N7JyD5r+LdWiqT8Y21JZMqlUr7I2D/jPh2WJO8oRYSy7KcW9FWKMx5JAI2iQvDww6RhlhMqUxG/QMDvpI8d/68+gcGZFmu2G8sSavT0soNadubE96T8I9v4bEkHH47PHujYKsMUx/Cav5eLR/7Bo6ccUy8ZXioB37rh6unYK2wfwKNB+DoJ/D6ErxTgaZO3w+Dl0BLB7xxG7b/hfHnq0T+ugx3NvZGYHUK5s7BT4dgswwbRWh90WNiJN0FGjyjdyy4+Rnc/gpUu4CS70PLMXjypSrReDO+OeslWJ+D1WuwcgW2/6meXCcuQ/wAzH0Or/7invWfkXQLeC5wB2sFmHwPNov3jsOdd6dxje38HXjqLUh/AY93wNp0lURLh9viupH0EfBlIAEbf4/B/Newfo2ge1ly+TbAM4Nw+F1oPV53WWDASGoEpoBUmDVbZVibgs1FWLlac2ggfrAanoNHofUFf3iCcR14ubYDPS3pSpQz4QHhe0lP2II5kHQKeBPoYre82Dt+B2aAUWPMz/bg/5AZ2OKL1i4FAAAAAElFTkSuQmCC" alt="">
+    <nav>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="">About us</a></li>
+    <li><a href="">Rate us</a></li>
+    <li><a href="">Contact us</a></li>
+
+    <form action="https://www.google.com/search" method="get">
+        <input type="search" name="p" id="" placeholder="Search Here">
+        <button type="submit">Search</button>
+    
+    
+    
+    </form>
+
+    
+    </nav>
+ 
+    
+    
+    
+    
+    
+    </header>
+    
+    
+
+
+
+
+
+    <div class="item">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.voYpDv98f896J9i2gtw1aAHaEK&pid=Api&P=0&h=220" alt="leptop">
+        <h3>leptop</h3>
+        <p>$2999</p>
+        <button onclick="alert('you succsesfuly bought this item!')">Buy Now</button>
+    </div>
+    <div class="item">
+        <img src="https://i.ebayimg.com/images/g/GeoAAOSwI2ZlE0Hh/s-l1600.webp" alt="pc">
+        <h3>pc i9</h3>
+        <p>$10 000</p>
+        <button onclick="alert('you succsesfuly bought this item!')">Buy Now</button>
+    </div>
+    <div class="item">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.DX-HUAQ8i_uasslWmOI7QgHaF-&pid=Api&P=0&h=220" alt="bandzia">
+        <h3>laptop</h3>
+        <p>$999.99</p>
+        <button onclick="alert('you succsesfuly bought this item!')">Buy Now</button>
+    </div>
+</body>
+</html>
