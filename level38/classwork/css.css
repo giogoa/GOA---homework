@@ -1,0 +1,80 @@
+h1{
+
+    color:aqua ;
+    font-family:cursive;
+    font-style:oblique;
+    font-size:40px;
+    font-weight:inherit;
+    
+}
+h2{
+    color:rgb(155, 86, 22) ;
+    font-family:unset;
+    font-style:italic;
+    font-size:40px;
+    font-weight:inherit;
+}
+h3{
+
+    color:rgb(81, 10, 99) ;
+    font-family:monospace;
+    font-style:oblique;
+    font-size:40px;
+    font-weight:inherit;
+}
+h4{
+    color:rgb(255, 0, 0) ;
+    font-family:initial;
+    font-style:oblique;
+    font-size:40px;
+    font-weight:inherit;
+}
+h5{
+
+    color:rgb(47, 0, 255) ;
+    font-family:inherit;
+    font-style:oblique;
+    font-size:48px;
+    font-weight:inherit;
+}
+h6{
+
+    color:rgb(255, 0, 234) ;
+    font-family:fantasy;
+    font-style:oblique;
+    font-size:34px;
+    font-weight:lighter;
+}
+button{
+    background-color: mediumpurple;
+    color:black ;
+    font-family:cursive;
+    font-style:oblique;
+    font-size:40px;
+    font-weight:inherit;
+}
+samp{
+    color: blueviolet;
+    color:rgb(229, 255, 0) ;
+    font-family:cursive;
+    font-style:oblique;
+    font-size:57px;
+    font-weight:inherit;
+}
+p{
+    color: blueviolet;
+    color:rgb(9, 255, 0) ;
+    font-family:cursive;
+    font-style:oblique;
+    font-size:40px;
+    font-weight:inherit;
+}
+li{
+    color:aqua ;
+    font-family:cursive;
+    font-style:oblique;
+    font-size:40px;
+    font-weight:inherit;
+
+
+}

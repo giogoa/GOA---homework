@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding: 20px;
+    color: #fff;
+}
+
+.rgb-section {
+    background-color: #00ff00; /* მწვანე */
+}
+
+.hex-section {
+    background-color: #ff0000; /* წითელი */
+}
