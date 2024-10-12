@@ -7,7 +7,7 @@ print(fruits[-1])
 fruits.append("fig")
 fruits.remove("banana")
 fruits[1] = "blueberry"
-print(len(fruits))
+print(fruits)
 
 #2
 numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90]
