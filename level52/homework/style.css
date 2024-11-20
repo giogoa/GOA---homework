@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+    background-size:cover ;
+    width: 100%;
+    
+}
+
+
+
+
+.img2{
+   position: relative;
+   margin-bottom: 100px;
+   
+   
+   
+   bottom: 250px;
+   
+   
+}
+
+.p1{
+    font-size: 40px;
+    font-family: Arial;
+    color: rgb(48, 46, 46);
+    position: relative;
+    width: 590px;
+   
+   bottom: 260px;
+   margin-bottom: 10px;
+}
+.p2{
+    font-family: Arial;
+    color: rgb(78, 75, 75);
+
+    position: relative;
+    
+    display: inline;
+    bottom: 260px;
+}
+
+
+.p3 {
+    font-family: Arial;
+    color: rgb(78, 75, 75);
+
+    position: relative;
+    
+    display: inline;
+    bottom: 260px;
+}
+
+
+.but1{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border :solid 2px rgb(13, 170, 141);
+    background-color: rgb(37, 188, 160);
+    font-size: 20px;
+    position: relative;
+    bottom: 150px;
+    
+    cursor: pointer;
+    color: white;
+}
+
+
+.but2{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color:rgb(95, 121, 255)    ;
+    border: solid 2px rgb(35, 126, 211) ;
+
+    position: relative;
+    left: 20px;
+    bottom: 150px;
+    cursor: pointer;
+    
+    font-size: 20px;
+    color: white;
+
+}
+
+.but2::after{
+    content: "";
+    background-color: rgb(95, 121, 255)   ;
+    position: absolute;
+    width: 205px;
+    height: 55px;
+    z-index: -1;
+    right: -3px;
+    bottom: -3px;
+    border-radius: 50px;
+    filter: blur(1.5rem);
+    opacity: 0.5rem;
+}
+
+
+.but1::after{
+    content: "";
+    background-color:  rgb(37, 188, 160); 
+    position: absolute;
+    width: 205px;
+    height: 55px;
+    z-index: -1;
+    right: -3px;
+    bottom: -3px;
+    border-radius: 50px;
+    filter: blur(1.5rem);
+    opacity: 0.5rem;
+}
+
+
+
+
+
+
+
+.table1{
+    position: relative;
+    left: 900px;
+    bottom: 550px;
+    font-size: 20px;
+}
+
+
+
+.p4{
+  color:  rgb(34, 33, 33);  
+  font-size: 40px;
+  font-family: Arial;
+}
+
+.p5{
+    color: rgb(78, 75, 75);
+    font-family: Arial;
+}
+
+.p6{
+    color: rgb(78, 75, 75);
+    font-family: Arial;
+    
+}
+
+
+
+.h1-1{
+    font-size: 35px;
+    font-family: Arial;
+    color: rgb(49, 48, 48);
+}
+
+.h6-1{
+    color: rgb(78, 75, 75);
+    font-family: Arial;
+}
+
+
+.table1 h3{
+    font-family: Arial;
+    color: rgb(34, 33, 33);
+    width: 200px;
+}
+
+
+.table1 h5{
+    color: #4e4b4b;
+    font-family: Arial;
+}
+
+
+main div{
+    width: 400px;
+}
+
+.p7{
+    font-family: Arial;
+    color: rgb(34, 33, 33); 
+    font-size: 35px;
+
+}
+.p8{
+    color: rgb(100, 96, 96); 
+    font-size: 25px;
+    font-family: Arial;
+    
+}
+.p9{
+    color: rgb(34, 33, 33); 
+    font-size: 25px;
+    font-family: Arial;
+    
+    position: relative;
+    top: 30px;
+    left: 130px;
+    width: 200px;
+
+
+
+
+   
+}
+
+.img3{
+    position: relative;
+    left: 200px;
+    
+    top:40px ;
+    margin-bottom: 30px;
+}
+
+.p10{
+    position: relative;
+    top: 40px;
+    color: #4e4b4b;
+    font-family: Arial;
+    left: 65px;
+    width: 500px;
+}
+.img4{
+    position: relative;
+    bottom: 110px;
+    margin-bottom: 23px;
+}
+.img5{
+    position: relative;
+    
+    bottom: 230px;
+    margin-bottom: 20px;
+    left: 1050px;
+}
+.p11{
+    position: relative;
+    bottom: 220px;
+    color: #4e4b4b;
+    font-family: Arial;
+    left: 920px;
+    width: 400px;
+}
+
+
+
+
+
+.p12{
+    color: rgb(34, 33, 33); 
+    font-size: 25px;
+    font-family: Arial;
+    
+    position: relative;
+    bottom: 110px;
+    width: 300px;
+}
+
+.p13{
+    font-family: Arial;
+    color: #4e4b4b;
+    position: relative;
+    bottom: 100px; 
+    width: 400px; 
+
+}
+
+
+
+.p14{
+    position: relative;
+    bottom: 230px; 
+    left: 1000px;
+    color: rgb(34, 33, 33); 
+    font-size: 25px;
+    font-family: Arial;
+    width: 200px;
+}
+
+.div1 img{
+    margin-left: 100px;
+}
+.main_of_futer_p1{
+    margin-top: 200px;
+    font-family: Arial;
+    font-size: 30px;
+    color: rgb(34, 33, 33);
+
+
+    
+
+
+
+}
+.main_of_futer_p2{
+    font-family: Arial;
+    font-size: 17px;
+    color: rgb(138, 130, 130);
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+.but3{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border :solid 2px rgb(13, 170, 141);
+    background-color: rgb(37, 188, 160);
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    color: white;
+    position: relative;
+
+
+}
+.but4{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color:rgb(95, 121, 255)    ;
+    border: solid 2px rgb(35, 126, 211) ;
+color: white;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    
+
+
+
+
+
+}
+
+
+
+.but4::after{
+    content: "";
+    background-color: rgb(95, 121, 255)   ;
+    position: absolute;
+    width: 205px;
+    height: 55px;
+    z-index: -1;
+    right: -3px;
+    bottom: -3px;
+    border-radius: 50px;
+    filter: blur(1.5rem);
+    opacity: 0.5rem;
+}
+
+
+.but3::after{
+    content: "";
+    background-color:  rgb(37, 188, 160);
+    position: absolute;
+    width: 205px;
+    height: 55px;
+    z-index: -1;
+    right: -3px;
+    bottom: -3px;
+    border-radius: 50px;
+    filter: blur(1.5rem);
+    opacity: 0.5rem;
+}
+
+
+.img6{
+    position: relative;
+    
+    top: 35px;
+    left: 20px;
+    float: left;
+   
+}
+
+
+.div2{
+    background-color: rgb(216, 216, 216);
+    z-index: -1;
+    position: relative;
+    top: 200px;
+    height: 200px;
+}
+
+
+
+.div2 p {
+    font-family: Arial ;
+    margin-right:80px ;
+}
+
+
+
+/* .p15{
+    float: left;
+margin-left: 300px;
+    
+}
+
+.p16{
+    float: left;
+}
+
+.p18{
+    float: left;
+} */
+
+.div3 p{
+    display: inline;
+    position: relative;
+    top: 60px;
+    cursor: pointer;
+    
+}
+.div4 p{
+    display: inline;
+    position: relative;
+    top: 50px;
+    left: 372px;
+    cursor: pointer;
+    
+}
+.div3 p:hover{
+    text-decoration: underline;
+}
+.div4 p:hover{
+    text-decoration: underline;
+}
+
+
+
+.img7{
+    float: inline-end;
+    z-index: 1;
+    width: 50px;
+    position: relative;
+    right: 300px;
+    top: 70px;
+}
+
+
+
+.img8{
+    float: inline-end;
+    z-index: 1;
+    width: 50px;
+    position: relative;
+    right: 150px;
+    top: 70px;
+    mix-blend-mode: multiply;
+}
+
+
+
+.img9{
+    float: inline-end;
+    z-index: 1;
+    width: 50px;
+    position: relative;
+    right: px;
+    top: 70px;
+}
+
+
+
+
+
+
+
