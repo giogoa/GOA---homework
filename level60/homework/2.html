@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Square Path Animation</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      position: relative;
+      width: 400px;
+      height: 400px;
+    }
+
+    .box {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      animation: square-path 4s infinite;
+   font-family: cursive;
+    }
+
+    @keyframes square-path {
+      0% {
+        top: 0;
+        left: 0;
+      }
+      25% {
+        top: 0;
+        left: 350px; /* Move to the right */
+      }
+      50% {
+        top: 350px; /* Move down */
+        left: 350px;
+      }
+      75% {
+        top: 350px;
+        bottom: 0;
+      }
+      100% {
+        top: 0;
+        left: 0; 
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">Lorem</div>
+  </div>
+</body>
+</html>

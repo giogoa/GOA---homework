@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Divs</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    .z1 , .z2 , .z3 {
+      width: 100px;
+      height: 100px;
+      background-color: #ff8e8e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      transition: all 0.5s ease;
+    }
+
+
+    .z1:hover {
+      transform: rotate(280deg);
+      background-color: #8c3ce7;
+    }
+
+    .z2:hover {
+      transform: scale(3);
+      background-color: #8eff7f;
+    }
+
+    .z3:hover {
+      transform: translateX(50px) rotate(20deg) scale(1.2);
+      background-color: #59b6b1;
+    }
+  </style>
+</head>
+<body>
+  <div class="z1">hello</div>
+  <div class="z2">hi</div>
+  <div class="z3">greetings</div>
+</body>
+</html>

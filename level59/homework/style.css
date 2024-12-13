@@ -1,0 +1,979 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-image: url(22e23f-be8-5268-d7e-432abebed807_IhZE5y9pQoqXzBvmkq1G_slider-2880x1389-5day-reset.png);
+    background-size: cover;
+    
+    width: 1366px;
+    width: 100%;
+    height: 641px;
+    position: relative;
+    bottom: 110px;
+
+}
+body{
+    height: 7500px;
+}
+
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 110px;
+    z-index: 1;
+    
+}
+
+
+.img1{
+    float: left;
+     
+}
+
+nav li{
+    list-style: none;
+    
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    float: left;
+    margin-left: 25px;
+    color: white;
+    margin-top: 50px;
+    z-index: 1;
+
+   
+
+    
+
+}
+
+
+
+.box1{
+    align-items: center;
+    width: 1349px;
+    height: 317px;
+    background-color: rgb(126, 38, 99);
+    position: relative;
+    z-index: -1;
+    bottom: 225px;
+    width: 100%;
+    padding-top: 50px;
+    
+    
+}
+.register{
+    position: relative;
+    width: 373px;
+    height: 47px;
+    font-size: 16px;
+   padding-left: 10px;
+    
+    font-family: "Quattrocento Sans";
+    border-radius:5px ;
+    border: solid #55595c 1px;
+    margin-left: 120px;
+}
+
+
+.register1{
+    width: 373px;
+    height: 47px;
+    font-size: 16px;
+   padding-left: 10px;
+   font-family: "Quattrocento Sans";
+   border-radius:5px ;
+   border: solid #55595c 1px;
+
+}
+ .login{
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    
+ }   
+
+
+
+
+
+
+
+
+
+
+.button1{
+    position: relative;
+    z-index: 1000;
+    background-color: #ff5b00;
+    height: 39px;
+    width: 250px;
+    border-radius: 27px;
+    border: none;
+    font-family: "Arvo";
+    font-weight: 500;
+    color: white;
+    bottom: 360px;
+    left: 553px;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: 1;
+    cursor: pointer;
+    
+}
+
+
+button:hover{
+    background-color: #ff7b00;
+    cursor: pointer;
+}
+
+
+.header-p{
+    font-size: 50px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    bottom: 350px;
+    color: white;
+    left: 220px;
+    width: 1000px;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: 1;
+}
+
+@keyframes animation{
+    from{transform: translateX(-20px);}
+}
+
+
+
+.box1 p{
+    color: white;
+    font-size: 23px;
+    font-family: "Arvo";
+    margin-bottom: 20px;
+
+}
+
+.but1{
+    width: 280px;
+    height: 44px;
+    font-family: "Arvo";
+    font-size: 16px;
+    background-color: #ff5b00;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: normal;
+    border: none;
+    color: white;
+    font-weight: 500;
+
+}
+
+
+.img2{
+    position: relative;
+    bottom: 180px;
+    width: 1349px;
+
+}
+.p2{
+    font-family: "Arvo";
+    font-size: 40px;
+    color:#e20060;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 110px;
+    
+}
+
+main img{
+    width: 550px;
+    filter:grayscale(10%);
+    cursor: pointer;
+    position: relative;
+    bottom: 110px;
+    height: 310px;
+    
+    
+}
+
+main img:hover{
+    filter:grayscale(0%);
+}
+
+
+.but2{
+    width: 163px;
+    height: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #ff5b00;
+    border-radius: 10px;
+    font-family: "Avro";
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    position: relative;
+    right: 350px;
+    bottom: 35px;
+    
+    
+}
+
+.but3{
+    width: 163px;
+    height: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #ff5b00;
+    border-radius: 10px;
+    font-family: "Avro";
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    left: 350px;
+    bottom: 100px;
+margin-bottom: 60px;
+}
+
+
+.but4{
+    width: 163px;
+    height: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #ff5b00;
+    border-radius: 10px;
+    font-family: "Avro";
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    position: relative; 
+    right: 270px;
+    bottom: 35px;
+}
+
+
+.img3{
+    position: relative;
+    left: 80px;
+}
+
+.img4{
+     width:1000px;
+    position: relative;
+    left:150px ;
+    margin-top: 50px;
+    margin-bottom: 70px;
+     
+}
+
+
+.p3{
+    width: 736px;
+    height: 104px;
+    font-size: 40px;
+    font-family: "Arvo";
+    text-align: center;
+    color: #ff5b00;
+    position: relative;
+    left: 300px;
+    margin-bottom: 20px;
+}
+
+
+
+.p4{
+    width: 736px;
+    height: 32px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Quattrocento Sans";
+    position: relative;
+    left: 300px;
+}
+
+
+
+
+
+
+.div1{
+    width: 930px;
+    height: 524px;
+    background-image: url(5ed535f-22f-bcc2-713-3d2d62113b_Screenshot_5_.webp);
+    margin-top: 50px;
+    z-index: -1;
+    margin-bottom: 50px;
+
+}
+
+.divs1{
+    width: 125px;
+    height: 80px;
+    opacity: 54.0%;
+    background-color: #f2591d;
+    
+    position: relative;
+    top: 210px;
+
+}
+
+.img5{
+    position: relative;
+    top: 145px;
+    width: 500px;
+    cursor: pointer;
+    
+    
+
+
+
+}
+
+
+
+.img6{
+    position: relative;
+    cursor: pointer;
+    
+    top: 150px;
+    display: none;
+}
+
+
+.divs2{
+    width: 930px;
+    opacity: 54.0%;
+    background-color: #f2591d;
+    height: 30px;
+    position: relative;
+    top: 364px;
+}
+
+
+
+.img7{
+    position: relative;
+    cursor: pointer;
+    right:440px;
+    top: 323px;
+    
+}
+
+
+.p5{
+    text-align: center;
+    font-family: "Quattrocento Sans";
+    position: relative;
+    color: white;
+    z-index: 10;
+    top: 341px;
+    font-size: 16px;
+    font-weight: 600;
+    right: 400px;
+    width: 20px;
+
+}
+
+
+
+.img8{
+    position: relative;
+    cursor: pointer;
+    right:440px;
+    top: 323px;
+    display: none;
+}
+
+
+.divs3{
+    width: 650px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    top: 312px;
+    right: 20px;
+    cursor: pointer;
+    border-left: 10px;
+    
+    
+}
+
+
+.img9{
+    position: relative;
+    cursor: pointer;
+    top: 286px;
+    left:380px ;
+
+}
+
+
+.img10{
+    position: relative;
+    cursor: pointer;
+    top: 285px;
+    left:370px ;
+}
+
+
+.img11{
+    position: relative;
+    cursor: pointer;
+    top: 285px;
+    left:370px ;
+}
+.but5{
+    width: 403px;
+    height: 50px;
+    font-family: "Avro";
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff5b00;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+
+
+.img12{
+    width: 1349px;
+    margin-bottom: 50px;
+}
+
+.img13{
+    width: 1349px;
+    position: relative;
+    z-index: -1;
+}
+
+.img14{
+    position: relative;
+    height: 640px;
+    bottom: 753px;
+    left: 130px;
+    width: 580px;
+    
+
+}
+
+
+.p6{
+    font-size: 16px;
+    width: 507px;
+    height: 153px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: "Quattrocento Sans";
+    position: relative;
+    
+    bottom: 1383px;
+    left: 160px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.p7{
+    font-size: 16px;
+    width: 507px;
+    height: 153px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: "Quattrocento Sans";
+    position: relative;
+    
+    bottom: 1433px;
+    left: 160px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+.div2 p{
+    position: relative;
+    left: 40px;
+    bottom: 22px;
+    color: white;
+    font-family:"Quattrocento Sans" ;
+
+}
+
+
+.div2{
+    position: relative;
+    left: 160px;
+    bottom: 1543px;
+    width: 507px;
+    height: 400px;
+}
+
+.div2 img{
+    width: 20px;
+}
+
+
+.p8{
+    width: 928px;
+    height: 58px;
+    font-family: "Avro";
+    font-size: 45px;
+    text-align: center;
+    color: #ff5b00;
+    position: relative;
+    margin-bottom: 20px;
+   
+}
+
+.p9{
+    width: 928px;
+    height: 192px;
+    font-size: 20px;
+    font-family: "Quattrocento Sans";
+    text-align: center;
+    position: relative;
+    
+}
+
+.p10{
+    text-align: left;
+    position: relative;
+    left: 115px;
+    font-family: "Avro";
+    font-size: 34px;
+    width: 300px;
+    color: #f15a1c;
+
+}
+
+footer{
+    position: relative;
+    bottom: 1390px;
+}
+
+hr{
+    width: 1120px;
+    margin-bottom: 100px;
+}
+
+.p11{
+    color: #812165;
+    font-size: 24px;
+    font-family: "Avro";
+    width: 400px;
+    height: 40px;
+    position: relative;
+    left: 50px;
+
+}
+
+.p12{
+    color: #812165;
+    font-size: 24px;
+    font-family: "Avro";
+    width: 400px;
+    height: 40px;
+    position: relative;
+    left: 750px;
+    bottom: 40px;
+
+}
+
+.img15{
+    width: 550px;
+    position: relative;
+    left: 50px;
+}
+
+.img16{
+    width: 550px;
+    position: relative;
+    left: 200px;
+}
+
+.p13{
+    font-size: 20px;
+    font-family: "Quattrocento Sans";
+    width: 545px;
+    height: 288px;
+    letter-spacing: normal;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+.p14{
+    font-size: 20px;
+    font-family: "Quattrocento Sans";
+    width: 545px;
+    height: 288px;
+    letter-spacing: normal;
+    position: relative;
+    left: 750px;
+    bottom: 270px;
+}
+
+
+.but6{
+    background-color:#ff5b00 ;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-family: "Avro";
+    font-size: 16px;
+    width: 160px;
+    height: 50px;
+    padding: 30px,12px,12px,30px; 
+    color: white;
+    position: relative;
+    bottom: 320px;
+    left: 57px;
+}
+
+.but7{
+    background-color:#ff5b00 ;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-family: "Avro";
+    font-size: 16px;
+    width: 160px;
+    height: 50px;
+    padding: 30px,12px,12px,30px;
+    color: white;
+    position: relative;
+    left: 580px;
+    bottom: 320px;
+}
+
+
+.div3{
+    background-color: #1abc9c;
+    width: 1349px;
+    height: 150px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    position: relative;
+    top: 110px;
+}
+
+.p15{
+    width: 736px;
+    height: 36px;
+    font-family: "Avro";
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+
+.p16{
+    width: 736px;
+    height: 36px;
+    font-family: "Avro";
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.input1{
+    position: relative;
+    width: 373px;
+    height: 47px;
+    font-size: 16px;
+   padding-left: 10px;
+    
+    font-family: "Quattrocento Sans";
+    border-radius:5px ;
+    border: solid #55595c 1px;
+    margin-left: 120px;
+    border: none;
+}
+
+
+.input2{
+    width: 373px;
+    height: 47px;
+    font-size: 16px;
+   padding-left: 10px;
+   font-family: "Quattrocento Sans";
+   border-radius:5px ;
+   border: solid #55595c 1px;
+
+   border: none;
+}
+
+.but8{
+    width: 280px;
+    height: 44px;
+    font-family: "Arvo";
+    font-size: 16px;
+    background-color: #ff5b00;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: normal;
+    border: none;
+    color: white;
+    font-weight: 500;
+
+}
+
+.div4{
+    width: 1349px;
+    height: 558px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #812165;
+    position: relative;
+    top: 110px;
+
+}
+
+
+
+.img17{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.but9{
+    width: 225px;
+    height: 33px;
+    margin-bottom: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Quattrocento Sans";
+    color: white;
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+
+.div4 .but9:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+.but10{
+    width: 225px;
+    height: 33px;
+    margin-bottom: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Quattrocento Sans";
+    color: white;
+    position: relative;
+    right: 110px;
+    top: 80px;
+}
+
+.div4 .but10:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+.but11{
+    width: 225px;
+    height: 33px;
+    margin-bottom: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Quattrocento Sans";
+    color: white;
+    position: relative;
+    right: 340px;
+    top: 130px;
+}
+
+.div4 .but11:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+
+.div4 div{
+    background-color: white;
+    width: 2px;
+    height: 450px;
+    position: relative;
+    left: 700px;
+    bottom: 505px;
+}
+
+
+.p17{
+    font-size: 32px;
+    font-family: "Avro";
+    text-align: center;
+    width: 569px;
+    height: 101px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding-bottom: 25px;
+    color: white;
+    position: relative;
+    left:700px ;
+    bottom: 70px;
+}
+
+.but12{
+    width: 167px;
+    height: 51px;
+    margin-bottom: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Quattrocento Sans";
+    color: white;
+    position: relative;
+    left: 900px;
+    bottom: 100px;
+}
+
+
+
+.but12:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+.p18{
+    font-size: 32px;
+    font-family: "Avro";
+    text-align: center;
+    width: 569px;
+    height: 63px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding-bottom: 25px;
+    color: white;
+    position: relative;
+    left:700px;
+    bottom: 110px;
+}
+
+.but14{
+    width: 311px;
+    height: 51px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+  
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Quattrocento Sans";
+    color: white;
+    position: relative;
+    left: 830px;
+    bottom: 130px;
+}
+
+.but14:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+
+
+.da{
+    color: white;
+    position: relative;
+    left: 520px;
+    width: 500px;
+    top: 40px;
+}
+
+
+  
+.div4  .div10{
+    position: relative;
+    left: 865px;
+    background-color: transparent;
+    display: flex;
+    top: -100px;
+    height: fit-content;
+}
+.nod1{
+   width: 50px;
+   height: 50px;
+   cursor: pointer;
+}
+.nod2{
+    width: 50px;
+   height: 50px;
+   cursor: pointer;
+}
+.nod3{
+    width: 50px;
+   height: 50px;
+   cursor: pointer;
+}
+.nod4{
+    width: 50px;
+   height: 50px;
+   cursor: pointer;
+}
+.nod5{
+    width: 50px;
+   height: 50px;
+   cursor: pointer;
+}
+.nod6{
+    width: 50px;
+   height: 50px;
+   cursor: pointer;
+}
